@@ -1,60 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Bruno</title>
-    <link rel="stylesheet" href="./build/styles/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Exercício boas práticas de CSS</title>
+    <link rel="stylesheet" href="main.css">
 </head>
-
 <body>
-    <div class="container">
-        <header>
-            <img class="profile-avatar" src="https://via.placeholder.com/96x96" alt="">
-            <div class="profile-bio">
-                <h1 class="profile-bio-name">Pagina Bruno</h1>
-                <h2 class="profile-bio-subtitle">Engenheiro Front-End</h2>
-                <p class="profile-bio-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore voluptate, dignissimos
-                    iusto
-                    earum
-                    natus sequi ipsum quam blanditiis laboriosam odio deserunt, veniam id, deleniti doloribus voluptates
-                </p>
-            </div>
-        </header>
-        <nav>
-            <ul class="social-links">
-                <li><a href="">
-                    <img src="./source/images/instagram.svg" alt="">
-                </a></li>
-                <li><a href="">
-                <img src="./source/images/linkedin.svg" alt="">
-                </a></li>
-                <li><a href="">
-                    <img src="./source/images/github.svg" alt="">
-                </a></li>
-                <li><a href="">
-                    <img src="./source/images/mail.svg" alt="">
-                </a></li>
-            </ul>
-        </nav>
-        <nav>
-            <ul class="projects-list">
-                <li class="projects-list-item"><a href="">
-                    Visite o projeto "Calculadora de medidas"
-                </a></li>
-                <li class="projects-list-item"><a href="">
-                    Visite o projeto GameShop
-                </a></li>
-                <li class="projects-list-item"><a href="">
-                    Visite o projeto galeria de fotos
-                </a></li>
-            </ul>
-        </nav>
+    <div class="produtos">
+        <div class="produto">
+            <img class="produto-imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto-nome">Nome do produto</h4>
+            <p class="produto-descricao">
+                Descrição do produto
+            </p>
+        </div>
+        <div class="produto em-destaque">
+            <img class="produto-imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto-nome">Nome do produto</h4>
+            <p class="produto-descricao">
+                Descrição do produto
+            </p>
+        </div>
+        <div class="produto">
+            <img class="produto-imagem" src="https://via.placeholder.com/100x100">
+            <h4 class="produto-nome">Nome do produto</h4>
+            <p class="produto-descricao">
+                Descrição do produto
+            </p>
+        </div>
     </div>
 </body>
-
 </html>
